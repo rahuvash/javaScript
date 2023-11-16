@@ -32,3 +32,4 @@ console.log(url.replace("%20",'-'))
 console.log(url.includes('r'))
 let split= "my name is rahul"
 console.log(split.split(' '));
+

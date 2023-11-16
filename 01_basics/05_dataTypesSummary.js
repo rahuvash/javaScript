@@ -44,3 +44,26 @@ There are two type of data type
     }
 
 */
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive) ,Heap(Non-Primitive)
+
+//whenever is a stack memory used we get the copy of the variable.
+//whenever is a heap memory used we get the reference of the variable.
+let myYoutubeName="Rahulvashisth.com"
+
+let anotherName="chaiorcode "
+let AnotherName=myYoutubeName
+
+let userOne={
+    email:"rahulvashisth",
+    upi:"hello@ybl"
+}
+
+let userTwo=userOne;
+
+userOne.email="helloBhai@gmail.com"
+
