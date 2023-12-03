@@ -29,7 +29,9 @@ console.log("A ", myArray);
 const myn1 = myArray.slice(1, 3);
 console.log(myn1);
 console.log("B ", myArray);
+// Slice don not change the original array and do not take the last range.
 
+// Splice Change the original array and take the last range.
 const myn2 = myArray.splice(1, 3);
 console.log("C", myArray);
-console.log(myn2)
+console.log(myn2);
